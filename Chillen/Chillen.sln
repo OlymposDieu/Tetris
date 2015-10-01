@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chillen", "Chillen\Chillen\Chillen.csproj", "{75BAA76C-8B56-4109-80C3-FD4ECA26F28B}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ChillenContent", "Chillen\ChillenContent\ChillenContent.contentproj", "{1CCF043C-FAD8-4C16-AA2F-9597D3B5585E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75BAA76C-8B56-4109-80C3-FD4ECA26F28B}.Debug|x86.ActiveCfg = Debug|x86
+		{75BAA76C-8B56-4109-80C3-FD4ECA26F28B}.Debug|x86.Build.0 = Debug|x86
+		{75BAA76C-8B56-4109-80C3-FD4ECA26F28B}.Release|x86.ActiveCfg = Release|x86
+		{75BAA76C-8B56-4109-80C3-FD4ECA26F28B}.Release|x86.Build.0 = Release|x86
+		{1CCF043C-FAD8-4C16-AA2F-9597D3B5585E}.Debug|x86.ActiveCfg = Debug|x86
+		{1CCF043C-FAD8-4C16-AA2F-9597D3B5585E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
