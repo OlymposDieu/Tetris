@@ -23,7 +23,7 @@ namespace ResolutionTest
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             Window.AllowUserResizing = true;
-          
+            Window.ClientSizeChanged += new EventHandler<EventArgs>(ClientSizeChanged());
         }
 
         protected override void Initialize()
@@ -35,6 +35,11 @@ namespace ResolutionTest
             spriteBatch = new SpriteBatch(GraphicsDevice);
             SetResolution(false);
             Test = Content.Load<Texture2D>("BlockBase");
+        }
+
+        public void ClientSizeChanged(object sender, EventArgs e)
+        {
+            SetResolution();
         }
 
         public void SetResolution(bool FullScreen = true)
